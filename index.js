@@ -3,7 +3,7 @@ const express = require('express');
 // 2- create an instance from express
 const app = express();
 // 5- We will use filesystem
-const fs = require('fs');
+
 const books = require('./routes/books');
 // 4- Route - Main Page
 /*
