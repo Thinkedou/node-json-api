@@ -3,13 +3,13 @@
     "id": "15A",
     "title": "An Unkindness of Ghosts",
     "author": "Rivers Solomon",
-    "cover": "unkindness.jpg"
+    "cover": "https://i.ibb.co/4SCnYf2/kindred.jpg"
   },
   {
     "id": "17C",
     "title": "Annihilation",
     "author": "Jeff VanderMee",
-    "cover": "annihilition.jpg"
+    "cover": "https://i.ibb.co/6RbS1qw/annihilation.jpg"
   },
   {
     "id": "13E",
@@ -21,7 +21,7 @@
     "id": "12F",
     "title": "Childhood's End",
     "author": "Arthur C. Clarke",
-    "cover": "childhood.jpg"
+    "cover": "https://i.ibb.co/QmqZqBn/childhood.jpg"
   },
   {
     "id": "11c",
@@ -33,13 +33,13 @@
     "id": "11f",
     "title": "How to Live Safely in a Science Fictional",
     "author": "Charles Yu",
-    "cover": "howToLive.jpg"
+    "cover": "https://i.ibb.co/DGCvdQ9/how-To-Live.jpg"
   },
   {
     "id": "10A",
     "title": "Brave New World",
     "author": "Aldous Huxley",
-    "cover": "braveNewWorld.jpg"
+    "cover": "https://i.ibb.co/qmksr6v/brave-New-World.jpg"
   },
   {
     "id": "16A",
@@ -51,7 +51,7 @@
     "id": "11d",
     "title": "1984",
     "author": "George Orwell",
-    "cover": "1984.jpg"
+    "cover": "https://i.ibb.co/BBmngNM/1984.jpg"
   },
   {
     "id": "100cs",
@@ -63,7 +63,7 @@
     "id": "5e",
     "title": "Do Androids Dream of Electric Sheep?",
     "author": "Philip K. Dick",
-    "cover": "doAndroid.jpg"
+    "cover": "https://i.ibb.co/FqyP2w4/do-Android.jpg"
   },
   {
     "id": "34f",
@@ -75,7 +75,7 @@
     "id": "1c",
     "title": "Exhalation",
     "author": "Ted Chiang",
-    "cover": "exhalation.jpg"
+    "cover": "https://i.ibb.co/djj87gB/exhalation.jpg"
   },
   {
     "id": "12ce",
@@ -111,12 +111,12 @@
     "id": "28v",
     "title": "Dune",
     "author": "Frank Michael",
-    "cover": "dunettes.jpg"
+    "cover": "https://i.ibb.co/8NfnmGh/dune.jpg"
   },
   {
     "id": "1k",
     "title": "Frankenstein",
     "author": "Mary Shelley",
-    "cover": "frankenstein.jpg"
+    "cover": "https://i.ibb.co/HFbLwpL/frankenstein.jpg"
   }
 ]

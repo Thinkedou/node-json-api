@@ -19,14 +19,11 @@ router.get('/:bookId', function(req, res) {
     }else{
       res.status(404).send('Not found')
     }
-
-    // res.send('About Books');
 });
 
 
 router.post('/', function(req, res) {
   const {body} = req
-  console.log(req)
   const tryToInsert =  impDb.insertOne(body)
   res.send(tryToInsert);
 });
