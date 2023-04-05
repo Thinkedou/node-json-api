@@ -2,6 +2,15 @@
 const express = require('express');
 // 2- create an instance from express
 const app = express();
+const bodyParser = require('body-parser');
+
+// configure the app to use bodyParser()
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(bodyParser.json());
+
+
 // 5- We will use filesystem
 
 const books = require('./routes/books');

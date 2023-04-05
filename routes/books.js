@@ -11,8 +11,50 @@ router.get('/',  function(req, res) {
 });
 
 
-router.get('/about', function(req, res) {
-    res.send('About Books');
+router.get('/:bookId', function(req, res) {
+    const {bookId} = req.params
+    const one =  impDb.findOne(bookId)
+    if(one.status==200){
+      res.send(one.data)
+    }else{
+      res.status(404).send('Not found')
+    }
+
+    // res.send('About Books');
 });
+
+
+router.post('/', function(req, res) {
+  const {body} = req
+  console.log(req)
+  const tryToInsert =  impDb.insertOne(body)
+  res.send(tryToInsert);
+});
+
+
+router.put('/:bookId', function(req, res) {
+  const {params,body} = req
+  const {bookId} = params
+  const updated =  impDb.updateOne(bookId,body)
+  console.log(updated)
+  const {status,data}= updated
+  if(status==200){
+    res.send(data);
+  }else{
+    res.sendStatus(404)
+  }
+});
+router.delete('/:bookId', function(req, res) {
+  const {params} = req
+  const {bookId} = params
+  const tryToDelete =  impDb.deleteOne(bookId)
+  const {status=false}= tryToDelete
+  if(status==200){
+    res.send('gone');
+  }else{
+    res.sendStatus(404)
+  }
+});
+
   
 module.exports = router;
